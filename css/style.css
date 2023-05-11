@@ -1,0 +1,95 @@
+ *{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 800px;
+	height: 420px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 135px;
+	left: 325px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 5;
+}
+
+.white{
+	width: 160px;
+	height: 160px;
+	background: white;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	margin: 10px;
+}
+
+.yellow{
+	width: 160px;
+	height: 160px;
+	background: yellow;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+	margin: 10px;
+
+}
+.blue{
+	width: 160px;
+	height: 160px;
+	background: blue;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	margin: 10px;
+
+}
+.orange{
+	width: 160px;
+	height: 160px;
+	background: orange;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	margin: 10px;
+
+}
+.fb{
+	width: 300px;
+	height: 80px;
+	top: 150px;
+	right: 150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+}
+.fb:hover{
+	width: 300px;
+	height: 80px;
+	top: 150px;
+	right: 2px;
+	position: fixed;
+}
+.yt{
+	width: 300px;
+	height: 80px;
+	top: 230px;
+	right: 150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+}
+.yt:hover{
+	width: 300px;
+	height: 80px;
+	top: 230px;
+	right: 2px;
+	position: fixed;
+}
